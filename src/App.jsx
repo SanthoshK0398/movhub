@@ -5,6 +5,7 @@ import { Routes, Route, useNavigate } from 'react-router-dom'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './firebase'
 import Search from './Pages/Search'
+
  
 function App() {
  

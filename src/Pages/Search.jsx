@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import { useDebounce } from 'react-use';
+import srch from '../assets/srch.svg';
 
 function Search() {
 
@@ -63,7 +64,7 @@ useEffect(() => {
       <div className='pt-25'>
         <div className="w-full max-w-100 bg-[white]/20  px-4 py-3 rounded-lg  md:max-w-3xl mx-auto">
             <div className='relative flex items-center'>
-              <img src="/src/assets/srch.svg" alt="seach icon"  className='absolute left-2 h-5 w-5'/>
+              <img src={srch} alt="seach icon"  className='absolute left-2 h-5 w-5'/>
               <input 
               type="text"
               value={searchMovie}

@@ -1,5 +1,6 @@
 // new
 import React from 'react'
+import str from '../assets/icons/star.svg'
 
 function MovieCard({ movie:{title, backdrop_path, original_language, vote_average, poster_path, overview, release_date, popularity} }) {
   return (
@@ -12,7 +13,7 @@ function MovieCard({ movie:{title, backdrop_path, original_language, vote_averag
         <div className='mt-2 flex flex-row items-center flex-wrap gap-2'>
 
           <div className='flex flex-row items-center gap-1'>
-            <img src="./src/assets/icons/star.svg" alt="star" className='size-4 object-contain'/>
+            <img src={str} alt="star" className='size-4 object-contain'/>
             <p className='font-bold text-base text-white'> {vote_average ? vote_average.toFixed(1): 'N/A'}</p>
           </div> 
 

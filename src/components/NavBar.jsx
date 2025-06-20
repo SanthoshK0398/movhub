@@ -74,7 +74,7 @@ function NavBar() {
 
         {/* nav right */}
         <div className='flex items-center gap-8 relative'>
-              <img src={search} onClick={()=>navigate('/search')} alt="search" className='hidden md:block w-7 cursor-pointer'/>
+              <img src={search} onClick={()=>navigate('/search')} alt="search" className=' md:block w-7 cursor-pointer'/>
               <img src={profile} alt="profile" className='hidden md:block w-6' onClick={handleSignout}/>
               <p className='hidden md:block text-white text-[12px]'>welcome {userName}</p>
 
