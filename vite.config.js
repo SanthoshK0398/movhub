@@ -5,8 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/movhub/',
+  
   plugins: [react(),
     tailwindcss(),],
-  base: process.env.VITE_BASE_PATH || '/movhub'
+  base: process.env.VITE_BASE_PATH || "/movhub",
 })
