@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import search from '../assets/srch.svg'
 import profile from '../assets/profile.svg'
 import menu from '../assets/icons/navmenu-icon.svg'
-import closeicon from '../assets/icons/close-icon.svg'
+// updated import path for close icon and logo
+import closeicon from '../assets/icons/close-Icon.svg'
 import logoIcon from '../assets/movhub-01.svg'
 import { logout } from '../firebase';
 import {auth, getUserData } from '../firebase';
